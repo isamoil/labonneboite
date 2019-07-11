@@ -16,6 +16,8 @@ RUN apt update && \
         tzdata \
         # scipy
         gfortran libblas-dev liblapack-dev libatlas-base-dev \
+        # impact retour emploi
+        wkhtmltopdf python3-cairo \
     && pip3 install virtualenv
 
 # Install python requirements
