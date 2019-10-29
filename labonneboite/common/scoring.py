@@ -8,7 +8,7 @@ from labonneboite.common.load_data import load_metiers_tension
 
 # scores between 0 and 100
 SCORE_FOR_ROME_MINIMUM = 20
-SCORE_ALTERNANCE_FOR_ROME_MINIMUM = 20
+SCORE_ALTERNANCE_FOR_ROME_MINIMUM = 10
 
 # stars between 0.0 and 5.0
 STARS_MINIMUM = 2.5
